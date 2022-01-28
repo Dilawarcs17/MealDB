@@ -1,0 +1,46 @@
+
+{
+    "meals": [
+      {
+        "strMeal": "Braised Beef Chilli",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/uuqvwu1504629254.jpg",
+        "idMeal": "53016"
+      },
+      {
+        "strMeal": "Sticky Toffee Pudding",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/xqqqtu1511637379.jpg",
+        "idMeal": "53016"
+      },
+      {
+        "strMeal": "Vegan Chocolate Cake",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/qxutws1486978099.jpg",
+        "idMeal": "53016"
+      },
+      {
+        "strMeal": "Pancakes",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/rwuyqx1511383174.jpg",
+        "idMeal": "53016"
+      },
+      {
+        "strMeal": "Peach & Blueberry Grunt",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/ssxvup1511387476.jpg",
+        "idMeal": "53016"
+      },
+      {
+        "strMeal": "Corba",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/58oia61564916529.jpg",
+        "idMeal": "53016"
+      },
+      {
+        "strMeal": "Battenberg Cake",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/ywwrsp1511720277.jpg",
+        "idMeal": "53016"
+      },
+      {
+        "strMeal": "Spaghetti alla Carbonarah",
+        "strMealThumb": "https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg",
+        "idMeal": "53016"
+      }
+
+    ]
+} 

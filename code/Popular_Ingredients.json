@@ -1,0 +1,25 @@
+{
+    "meals": 
+    [
+      {
+        "strMeal":"Chicken",
+        "strMealThumb": "https://www.themealdb.com/images/ingredients/Chicken.png",
+        "idMeal": "53016"
+        }   ,
+      {
+        "strMeal":"Salmon",
+        "strMealThumb": "https://www.themealdb.com/images/ingredients/Salmon.png",
+        "idMeal": "53016"
+        } ,  
+      {
+        "strMeal":"Beef",
+        "strMealThumb": "https://www.themealdb.com/images/ingredients/Beef.png",
+        "idMeal": "53016"
+        } ,  
+      {
+        "strMeal":"Pork",
+        "strMealThumb": "https://www.themealdb.com/images/ingredients/Pork.png",
+        "idMeal": "53016"
+        }   
+    ]
+}

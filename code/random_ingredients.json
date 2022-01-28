@@ -1,0 +1,25 @@
+{
+    "meals": [
+      {
+        "strMeal": "Cashews",
+        "strMealThumb": "https://www.themealdb.com/images/ingredients/Cashews.png",
+        "idMeal": "53016"
+      },
+      {
+        "strMeal": "Fresh Thyme",
+        "strMealThumb": "https://www.themealdb.com/images/ingredients/Fresh%20Thyme.png",
+        "idMeal": "53016"
+      },
+      {
+        "strMeal": "Beef Brisket",
+        "strMealThumb": "https://www.themealdb.com/images/ingredients/Beef%20Brisket.png",
+        "idMeal": "53016"
+      },
+      {
+        "strMeal": "Bean Sprouts",
+        "strMealThumb": "https://www.themealdb.com/images/ingredients/Bean%20Sprouts.png",
+        "idMeal": "53016"
+      }
+      
+    ]
+} 
