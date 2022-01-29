@@ -6,6 +6,9 @@ body {
   background-color: #23180d;
   margin-top: 0%;
 }
+.manu a:hover {
+  background-color: red;
+}
 .td-left {
   width: 20%;
 }
@@ -47,6 +50,9 @@ h3 {
   text-align: center;
   color: white;
 }
+.row_flag {
+  margin-left: 20px;
+}
 .footer {
   display: flex;
   justify-content: space-between;
@@ -60,4 +66,16 @@ h3 {
 .left-footer {
   color: white;
   margin-right: 80px;
+}
+.main_div {
+  margin: auto;
+}
+.Dyn-CSS {
+  width: 240px;
+  height: 240px;
+  margin-left: 25px;
+}
+.Dyn-para {
+  color: white;
+  text-align: center;
 }
