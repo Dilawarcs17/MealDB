@@ -1,21 +1,21 @@
 // function data get 
-function fethc_data(url, bindfunc, row_Identifier, html) {
+function fethc_data(url, bindfunc, row_Identifier, html_struct) {
     const xhr = new XMLHttpRequest();
     xhr.open("get", url);
     xhr.onload = function () {
         var response = JSON.parse(xhr.responseText);
         var response_Inkey = Object.keys(response)[0];
         var calling_data = response[response_Inkey];
-        bindfunc(calling_data, row_Identifier, html)
+        bindfunc(calling_data, row_Identifier, html_struct)
     }
     xhr.send();
 }
 // function binding
-function bindfunc(calling_data, row_Identifier, html) {
+function bindfunc(calling_data, row_Identifier, html_struct) {
     for (var i in calling_data) {
         var logo = calling_data[i].strMealThumb;
         var nameoflogo = calling_data[i].strMeal;
-        document.getElementById(row_Identifier).append(html(nameoflogo, logo))
+        document.getElementById(row_Identifier).append(html_struct(nameoflogo, logo))
 
     }
 }
