@@ -16,6 +16,7 @@ function htmlbody(logo, nameoflogo, row_Identifier) {
         let nwData = data.replace('image', logo);
         nwData = nwData.replace('data', nameoflogo);
         document.getElementById(`${row_Identifier}`).innerHTML += nwData;
+        // document.getElementById(row_Identifier).innerHTML += nwData;
     })
 }
 //function binding
@@ -27,7 +28,7 @@ function bindfunc(calling_data, row_Identifier) {
     }
 }
 
-fethc_data("latest_meals.json", bindfunc, "latest_meal")
-fethc_data("Popular_Ingredients.json", bindfunc, "popular_ing")
-fethc_data("random_meals.json", bindfunc, "random_meal")
-fethc_data("random_ingredients.json", bindfunc, "Random_ing")
+fethc_data("Json_Files/latest_meals.json", bindfunc, "latest_meal")
+fethc_data("Json_Files/Popular_Ingredients.json", bindfunc, "popular_ing")
+fethc_data("Json_Files/random_meals.json", bindfunc, "random_meal")
+fethc_data("Json_Files/random_ingredients.json", bindfunc, "Random_ing")
