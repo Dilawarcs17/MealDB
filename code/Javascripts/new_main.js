@@ -16,7 +16,7 @@ function bindfunc(calling_data, row_Identifier, html_struct) {
         var logo = calling_data[i].strMealThumb;
         var nameoflogo = calling_data[i].strMeal;
         document.getElementById(row_Identifier).append(html_struct(nameoflogo, logo))
-
+        // document.getElementById(row_Identifier).append(html_struct(nameoflogo, logo))
     }
 }
 // function for html with getting data & replacing
